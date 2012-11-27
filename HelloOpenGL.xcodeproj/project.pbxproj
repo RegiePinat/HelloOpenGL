@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB8A5E5B16648CA5007C4B9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8A5E5A16648CA5007C4B9C /* UIKit.framework */; };
+		DB8A5E5D16648CA5007C4B9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8A5E5C16648CA5007C4B9C /* Foundation.framework */; };
+		DB8A5E5F16648CA5007C4B9C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8A5E5E16648CA5007C4B9C /* CoreGraphics.framework */; };
+		DB8A5E6516648CA5007C4B9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB8A5E6316648CA5007C4B9C /* InfoPlist.strings */; };
+		DB8A5E6716648CA5007C4B9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8A5E6616648CA5007C4B9C /* main.m */; };
+		DB8A5E6B16648CA5007C4B9C /* HelloOpenGLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8A5E6A16648CA5007C4B9C /* HelloOpenGLAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB8A5E5616648CA5007C4B9C /* HelloOpenGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloOpenGL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB8A5E5A16648CA5007C4B9C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB8A5E5C16648CA5007C4B9C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB8A5E5E16648CA5007C4B9C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB8A5E6216648CA5007C4B9C /* HelloOpenGL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloOpenGL-Info.plist"; sourceTree = "<group>"; };
+		DB8A5E6416648CA5007C4B9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB8A5E6616648CA5007C4B9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB8A5E6816648CA5007C4B9C /* HelloOpenGL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloOpenGL-Prefix.pch"; sourceTree = "<group>"; };
+		DB8A5E6916648CA5007C4B9C /* HelloOpenGLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloOpenGLAppDelegate.h; sourceTree = "<group>"; };
+		DB8A5E6A16648CA5007C4B9C /* HelloOpenGLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloOpenGLAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB8A5E5316648CA5007C4B9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8A5E5B16648CA5007C4B9C /* UIKit.framework in Frameworks */,
+				DB8A5E5D16648CA5007C4B9C /* Foundation.framework in Frameworks */,
+				DB8A5E5F16648CA5007C4B9C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB8A5E4B16648CA5007C4B9C = {
+			isa = PBXGroup;
+			children = (
+				DB8A5E6016648CA5007C4B9C /* HelloOpenGL */,
+				DB8A5E5916648CA5007C4B9C /* Frameworks */,
+				DB8A5E5716648CA5007C4B9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB8A5E5716648CA5007C4B9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB8A5E5616648CA5007C4B9C /* HelloOpenGL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB8A5E5916648CA5007C4B9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB8A5E5A16648CA5007C4B9C /* UIKit.framework */,
+				DB8A5E5C16648CA5007C4B9C /* Foundation.framework */,
+				DB8A5E5E16648CA5007C4B9C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB8A5E6016648CA5007C4B9C /* HelloOpenGL */ = {
+			isa = PBXGroup;
+			children = (
+				DB8A5E6916648CA5007C4B9C /* HelloOpenGLAppDelegate.h */,
+				DB8A5E6A16648CA5007C4B9C /* HelloOpenGLAppDelegate.m */,
+				DB8A5E6116648CA5007C4B9C /* Supporting Files */,
+			);
+			path = HelloOpenGL;
+			sourceTree = "<group>";
+		};
+		DB8A5E6116648CA5007C4B9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB8A5E6216648CA5007C4B9C /* HelloOpenGL-Info.plist */,
+				DB8A5E6316648CA5007C4B9C /* InfoPlist.strings */,
+				DB8A5E6616648CA5007C4B9C /* main.m */,
+				DB8A5E6816648CA5007C4B9C /* HelloOpenGL-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB8A5E5516648CA5007C4B9C /* HelloOpenGL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB8A5E6E16648CA5007C4B9C /* Build configuration list for PBXNativeTarget "HelloOpenGL" */;
+			buildPhases = (
+				DB8A5E5216648CA5007C4B9C /* Sources */,
+				DB8A5E5316648CA5007C4B9C /* Frameworks */,
+				DB8A5E5416648CA5007C4B9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloOpenGL;
+			productName = HelloOpenGL;
+			productReference = DB8A5E5616648CA5007C4B9C /* HelloOpenGL.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB8A5E4D16648CA5007C4B9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HelloOpenGL;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Regie G. Pinat";
+			};
+			buildConfigurationList = DB8A5E5016648CA5007C4B9C /* Build configuration list for PBXProject "HelloOpenGL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB8A5E4B16648CA5007C4B9C;
+			productRefGroup = DB8A5E5716648CA5007C4B9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB8A5E5516648CA5007C4B9C /* HelloOpenGL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB8A5E5416648CA5007C4B9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8A5E6516648CA5007C4B9C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB8A5E5216648CA5007C4B9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8A5E6716648CA5007C4B9C /* main.m in Sources */,
+				DB8A5E6B16648CA5007C4B9C /* HelloOpenGLAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB8A5E6316648CA5007C4B9C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB8A5E6416648CA5007C4B9C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB8A5E6C16648CA5007C4B9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB8A5E6D16648CA5007C4B9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB8A5E6F16648CA5007C4B9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloOpenGL/HelloOpenGL-Prefix.pch";
+				INFOPLIST_FILE = "HelloOpenGL/HelloOpenGL-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB8A5E7016648CA5007C4B9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloOpenGL/HelloOpenGL-Prefix.pch";
+				INFOPLIST_FILE = "HelloOpenGL/HelloOpenGL-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB8A5E5016648CA5007C4B9C /* Build configuration list for PBXProject "HelloOpenGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB8A5E6C16648CA5007C4B9C /* Debug */,
+				DB8A5E6D16648CA5007C4B9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB8A5E6E16648CA5007C4B9C /* Build configuration list for PBXNativeTarget "HelloOpenGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB8A5E6F16648CA5007C4B9C /* Debug */,
+				DB8A5E7016648CA5007C4B9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB8A5E4D16648CA5007C4B9C /* Project object */;
+}
