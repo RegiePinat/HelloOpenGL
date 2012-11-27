@@ -13,6 +13,11 @@
 		DB8A5E6516648CA5007C4B9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB8A5E6316648CA5007C4B9C /* InfoPlist.strings */; };
 		DB8A5E6716648CA5007C4B9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8A5E6616648CA5007C4B9C /* main.m */; };
 		DB8A5E6B16648CA5007C4B9C /* HelloOpenGLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8A5E6A16648CA5007C4B9C /* HelloOpenGLAppDelegate.m */; };
+		DB8A5E7216648F44007C4B9C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8A5E7116648F44007C4B9C /* QuartzCore.framework */; };
+		DB8A5E7416648F51007C4B9C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8A5E7316648F51007C4B9C /* OpenGLES.framework */; };
+		DB8A5E7716648FC5007C4B9C /* OpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8A5E7616648FC5007C4B9C /* OpenGLView.m */; };
+		DB8A5E791664A401007C4B9C /* SimpleVertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = DB8A5E781664A401007C4B9C /* SimpleVertex.glsl */; };
+		DBAEEB811664AB4200BB1CE2 /* SimpleFragment.glsl in Resources */ = {isa = PBXBuildFile; fileRef = DBAEEB801664AB4200BB1CE2 /* SimpleFragment.glsl */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,12 @@
 		DB8A5E6816648CA5007C4B9C /* HelloOpenGL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloOpenGL-Prefix.pch"; sourceTree = "<group>"; };
 		DB8A5E6916648CA5007C4B9C /* HelloOpenGLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloOpenGLAppDelegate.h; sourceTree = "<group>"; };
 		DB8A5E6A16648CA5007C4B9C /* HelloOpenGLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloOpenGLAppDelegate.m; sourceTree = "<group>"; };
+		DB8A5E7116648F44007C4B9C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DB8A5E7316648F51007C4B9C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		DB8A5E7516648FC5007C4B9C /* OpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenGLView.h; path = ../OpenGLView.h; sourceTree = "<group>"; };
+		DB8A5E7616648FC5007C4B9C /* OpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OpenGLView.m; path = ../OpenGLView.m; sourceTree = "<group>"; };
+		DB8A5E781664A401007C4B9C /* SimpleVertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleVertex.glsl; sourceTree = "<group>"; };
+		DBAEEB801664AB4200BB1CE2 /* SimpleFragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleFragment.glsl; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +45,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB8A5E5B16648CA5007C4B9C /* UIKit.framework in Frameworks */,
+				DB8A5E7416648F51007C4B9C /* OpenGLES.framework in Frameworks */,
+				DB8A5E7216648F44007C4B9C /* QuartzCore.framework in Frameworks */,
 				DB8A5E5D16648CA5007C4B9C /* Foundation.framework in Frameworks */,
 				DB8A5E5F16648CA5007C4B9C /* CoreGraphics.framework in Frameworks */,
 			);
@@ -62,6 +75,8 @@
 		DB8A5E5916648CA5007C4B9C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DB8A5E7316648F51007C4B9C /* OpenGLES.framework */,
+				DB8A5E7116648F44007C4B9C /* QuartzCore.framework */,
 				DB8A5E5A16648CA5007C4B9C /* UIKit.framework */,
 				DB8A5E5C16648CA5007C4B9C /* Foundation.framework */,
 				DB8A5E5E16648CA5007C4B9C /* CoreGraphics.framework */,
@@ -72,6 +87,10 @@
 		DB8A5E6016648CA5007C4B9C /* HelloOpenGL */ = {
 			isa = PBXGroup;
 			children = (
+				DB8A5E7516648FC5007C4B9C /* OpenGLView.h */,
+				DB8A5E7616648FC5007C4B9C /* OpenGLView.m */,
+				DB8A5E781664A401007C4B9C /* SimpleVertex.glsl */,
+				DBAEEB801664AB4200BB1CE2 /* SimpleFragment.glsl */,
 				DB8A5E6916648CA5007C4B9C /* HelloOpenGLAppDelegate.h */,
 				DB8A5E6A16648CA5007C4B9C /* HelloOpenGLAppDelegate.m */,
 				DB8A5E6116648CA5007C4B9C /* Supporting Files */,
@@ -143,6 +162,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB8A5E6516648CA5007C4B9C /* InfoPlist.strings in Resources */,
+				DB8A5E791664A401007C4B9C /* SimpleVertex.glsl in Resources */,
+				DBAEEB811664AB4200BB1CE2 /* SimpleFragment.glsl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +176,7 @@
 			files = (
 				DB8A5E6716648CA5007C4B9C /* main.m in Sources */,
 				DB8A5E6B16648CA5007C4B9C /* HelloOpenGLAppDelegate.m in Sources */,
+				DB8A5E7716648FC5007C4B9C /* OpenGLView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +282,7 @@
 				DB8A5E7016648CA5007C4B9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
